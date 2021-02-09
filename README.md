@@ -2,7 +2,7 @@
 
 ## About Emulate Brain Activity
 
-Emulate Brain Activity is project developed through JUST student flow Information technology college flow Software department under supervised #### DR. mahmoud hammad shared with:
+Emulate Brain Activity is project developed through JUST student flow Information technology college flow Software department under supervised <b> DR. mahmoud hammad </b> shared with:
 #### Yousef Mousa AbuAnzah<br>(https://github.com/yousefdev20).
 #### Deyaa Omer Albuati<br>(https://github.com/Deyaaalbawati).
 #### Majd Khaled Fayyad <br>(https://web.facebook.com/majd.fayyad.5).
