@@ -13,7 +13,7 @@ Emulate Brain Activity is project developed through JUST student flow Informatio
 - we are used vue js to render some data on table with main functionality (sort data order by any column you need) edit, create, delete search on any data.
 
 ## installation:
-- install via github https://github.com/yousefdev20/emualteBrainActivity
+- install via github https://github.com/yousefdev20/EmulateBrainActivity
 - step 1 composer dump-autoload
 - if do make change on source code npm install
 
