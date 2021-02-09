@@ -1,0 +1,334 @@
+.html body{
+    top: 0;
+    left: 0;
+    font-family: Open Sans,sans-serif !important;
+}
+a{
+    text-decoration: none !important;
+}
+.wrapper{
+    /* background: linear-gradient(45deg, #00000010, #00000002); */
+    background: #f9f9f9;
+    grid-template-columns: 20% 80%;
+    display: grid;
+    overflow-x: hidden;
+}
+.list{
+    position: fixed;
+    background: linear-gradient(45deg,#353d47,#21292e);
+    color: white;
+    min-height: 200vh;
+    min-width: 20%;
+}
+.list .head-title{
+    background-color: #22A7F0;
+    min-height: 60px;
+    max-height: 60px;
+}
+.list .head-title .img{
+    border-radius: 25px;
+    min-height: 45px;
+    max-height: 45px;
+    width: 45px;
+    margin-inline-start: 10%;
+    margin-block: 10px;
+    transform: rotate(-20deg);
+}
+.img-rouete{
+
+}
+.list .head-title .p{
+    display: inline-flex;
+}
+.blue{
+    background-color: white;
+    min-height: 100vh;
+    position: absolute;
+    top: 60px;
+    float: right;
+    width: 80%;
+    right: 0;
+}
+ul{
+    padding-left: 0 !important;
+    left: 0;
+}
+ul li{
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Open Sans,sans-serif;
+    line-height: 45px;
+    display: block;
+    white-space: nowrap;
+    color: #76838f;
+    text-transform: capitalize;
+    padding-left: 30px;
+}
+ul li:hover{
+    color: white;
+    background: #2a363b;
+    margin-inline: 0px;
+    width: 100%;
+    text-decoration: none;
+}
+ul a li{
+    text-decoration: none !important;
+}
+.head-imgage{
+    background-image: url('/assets/images/actichamp-price-list.jpg');
+    min-height: 60px;
+    max-height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4;
+}
+.head-imgage h4{
+    color: white;
+    opacity: 0.9;
+}
+.opacity{
+    background: linear-gradient(450deg, #318cbd, #000);
+    min-height: 60px;
+    opacity: 0.5;
+}
+.nav-section{
+    overflow-x: hidden;
+    width: 80vw;
+    top: 0;
+    min-height: 60px;
+    position: fixed;
+    box-shadow: -2px -5px 8px 0px #989696;
+    background: hsla(0,0%,98%,.9);
+}
+.item li i{
+    margin-inline-end: 15px;
+}
+.nav-title{
+    min-height: 35px;
+    max-height: 35px;
+    min-width: auto;
+    background-color: white;
+    border-radius: 50px;
+    margin-inline-start: 30px;
+    margin-block-start: -5px;
+    display: inline-block;
+    position: absolute;
+    margin-bottom: 24px;
+    padding-inline: 20px;
+    padding-block: 6px;
+    overflow: hidden;
+    color: #22a7f0;
+}
+.nav-title j{
+    color: #58595f;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 12px;
+    width: 50px;
+}
+.link-active{
+    color: white;
+    background: #2a363b;
+    margin-inline: 0px;
+    width: 100%;
+}
+.in-active{
+    display: none !important;
+
+}
+.fas{
+}
+.item-text{
+    display: inline-block;
+    /* margin-inline-start: 20px; */
+    text-justify: auto;
+}
+.item li i{
+    display: inline-block;
+    width: 20px;
+}
+.cus{
+    position: absolute;
+    right: 30px;
+    top: 8px;
+}
+.img-rounded-cus{
+    border-radius: 25px;
+    right: 40px;
+    margin-inline: 10px;
+}
+.profile-list{
+    min-height: 220px;
+    min-width: 250px;
+    background-color: white;
+    position: fixed;
+    right: 10px;
+    top: 70px;
+    border-radius: 5px;
+    padding: 20px;
+    display: inline-block;
+    overflow: hidden;
+    box-shadow: 0.1px 0.1px 5px #bbb5b5;
+}
+.profile-list-img{
+    display: inline-block;
+}
+.profile-list img{
+    display: inline-block;
+}
+.profile-list h5{
+    display: inline-block;
+    padding-inline: 10px;
+    margin-top: 30px;
+    position: absolute;
+    font-weight: lighter;
+    font-size: 14px;
+}
+.profile-list h6{
+    display: inline-block;
+    padding-inline: 10px;
+    margin-top: 10px;
+    position: absolute;
+    font-weight: lighter;
+}
+.profile-list p{
+    color: #58595f;
+    font-weight: 300;
+}
+.profile-list button{
+    background: #fa2a00;
+    min-width: 100%;
+    min-height: 35px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+.wrapper-page{
+    padding-inline: 20px;
+    padding-block: 20px;
+}
+.home-img-section{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    column-gap: 25px;
+    overflow: hidden;
+}
+.sec-1{
+    min-height: 60vh;
+    background: #00000070;
+
+}
+.sec-2{
+    min-height: 55vh;
+    max-height: 55vh;
+    background: #00000070;
+}
+.sec-3{
+    min-height: 60vh;
+    background: #00000070;
+}
+.img-1{
+    min-height: 60vh;
+    max-height: 60vh;
+    background-image: url('/assets/images/EEG.jpg');
+    background-position: center;
+    border-radius: 5px;
+    background-size: cover;
+    box-shadow:  0px 0px 10px black;
+    color: white;
+}
+.img-2{
+    background-image: url('/assets/images/play_game.jpg');
+    background-position: center;
+    border-radius: 5px;
+    background-size: cover;
+    box-shadow:  0px 0px 10px black;
+    min-height: 55vh;
+    max-height: 55vh;
+}
+.img-3{
+    min-height: 60vh;
+    max-height: 60vh;
+    background-image: url('/assets/images/users.jpeg');
+    background-position: center;
+    border-radius: 5px;
+    background-size: cover;
+    box-shadow:  0px 0px 10px black;
+    color: white;
+}
+.sec-1 h1{
+    font-size: 18px;
+}
+.home-content{
+    padding-top: 60px !important;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    position: static;
+    overflow: hidden;
+}
+.home-content h1{
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center !important;
+    font-family: fantasy;
+    width: 100%;
+    color: #fff;
+}
+.home-content h6{
+    font-weight: bold;
+    text-align: center;
+    font-family: fantasy;
+    color: #f9f9f9cc;
+    width: 100%;
+
+}
+.small{
+    position: static;
+    margin-block: 10px;
+    text-align: center !important;
+    margin-block: 45px;
+}
+.small-1{
+    position: static;
+    margin-block: 10px;
+    text-align: center !important;
+    margin-block: -20px;
+}
+#arrow-clicker{
+    cursor: pointer;
+}
+
+/**
+* phone screen
+*/
+@media (max-width: 1000px) and (min-width: 300px){
+    .wrapper{
+        background: linear-gradient(45deg, #00000010, #00000002);
+        grid-template-columns: 0% 100%;
+        display: grid;
+    }
+    .home-img-section{
+        grid-template-columns: 100% !important;
+    }
+    .list{
+        width: 0%;
+        display: none !important;
+    }
+    .blue{
+        width: 100%;
+    }
+    .home-img-section{
+        display: grid;
+        grid-template-columns: 100%;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+    .nav-section{
+        width: 100vw;
+    }
+}
