@@ -4,11 +4,11 @@
 
 Emulate Brain Activity is project developed through JUST student flow Information technology college flow Software department under supervised DR. mahmoud hammad shared with:
 #### Yousef Mousa AbuAnzah<br>(https://github.com/yousefdev20).
-####Deyaa Omer Albuati<br>(https://github.com/Deyaaalbawati).
-####Majd Khaled Fayyad <br>(https://web.facebook.com/majd.fayyad.5).
+#### Deyaa Omer Albuati<br>(https://github.com/Deyaaalbawati).
+#### Majd Khaled Fayyad <br>(https://web.facebook.com/majd.fayyad.5).
 
 
-###Project features
+### Project features
 - project built on laravel framework.
 - we are used vue js to render some data on table with main functionality (sort data order by any column you need) edit, create, delete search on any data.
 
