@@ -24,7 +24,7 @@ Route::group(['middleware' => 'auth'], function (){
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/admin/home', [App\Http\Controllers\Admin\homeController::class, 'index'])->name('admin.home');
 
-Auth::routes(['register' => false]);
+Auth::routes(['register' => false, 'reset' => false]);
 Route::group(['middleware' => 'auth'],function(){
     Route::get('/admin/users', [userController::class, 'index'])->name('admin.users');
     Route::get('/admin/users/{id}', [userController::class, 'view'])->name('admin.view');
