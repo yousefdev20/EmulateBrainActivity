@@ -20,7 +20,7 @@ pipeline {
         }
         stage("Acceptance test codeception and deploy") {
             steps {
-                sh "echo Everything woking fine so nice."
+                sh "echo Everything woking fine so nice.."
             }
             post {
                 always {
