@@ -4,7 +4,7 @@ pipeline {
         stage("Composer Init") {
             steps {                                
                 sh "cp -rf /var/lib/jenkins/workspace/Lar_1_main /var/www/html/Lar_1_main"
-                sh "cp -rf /var/www/html/Lar_1_main ../app"
+                sh "cp -rf /var/www/html/Lar_1_main /../app"
             }
         }
         stage("Build") {
