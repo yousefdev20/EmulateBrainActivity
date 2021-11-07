@@ -1,5 +1,4 @@
 <?php
-echo "<h1>hi there</h1>";
 
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Http\Request;
