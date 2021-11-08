@@ -3,14 +3,12 @@ pipeline {
     stages {        
         stage("Composer Init") {
             steps {                                
-                sh "cp -rf /var/lib/jenkins/workspace/Lar_1_main /var/www/html/Lar_1_main"                
+                sh "first stage (start)"
             }
         }
         stage("Build") {
             steps {
-                sh 'echo hi there'
-                sh 'cd /var/www/html/Lar_1_main && composer install'
-                sh "cd /var/www/html/Lar_1_main && php artisan optimize:clear"
+                sh 'echo hi there'                
             }
         }
         stage("Acceptance test codeception and deploy") {
